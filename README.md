@@ -29,11 +29,20 @@ PassOP is a responsive password manager application built with React.js, JavaScr
    git clone https://github.com/your-username/passop-password-manager.git
    cd passop-password-manager
 2. Install dependencies:
-  ```bash
-  npm install
+   ```bash
+     npm install
 
 3. Start the development server:
-  ```bash
-  npm start
+   ```bash
+     npm start
 
 4. Open your browser and navigate to http://localhost:3000.
+
+## Usage
+
+1. **Add Entry**: Enter the website URL, username, and password in the input fields and click the "Save" button.
+2. **View Entries**: All saved entries will be displayed in a table below the input fields.
+3. **Copy Entry**: Click the copy icon next to any entry to copy its URL, username, or password to the clipboard.
+4. **Edit Entry**: Click the edit icon to modify an existing entry.
+5. **Delete Entry**: Click the delete icon to remove an entry.
+6. **Persistent Storage**: Refresh the page to see that your entries are still there, thanks to localStorage.
